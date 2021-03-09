@@ -1,0 +1,36 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    margin: 0 auto;
+ 
+}
+.country-info {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .country-info .img {
+    text-align: center;
+  }
+  .country-info img {
+    max-height: 350px;
+  }
+  .country-info,
+  td,
+  th {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+  }
+  .country-info td,
+  th {
+    padding: 0.5rem 1rem;
+  }
+  .country-info th {
+    width: 40%;
+    color: #000000;
+    text-align: left;
+  }
+  .country-info td {
+    color: #0f3057;
+  }
+  
