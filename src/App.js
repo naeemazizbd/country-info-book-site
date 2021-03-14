@@ -15,11 +15,12 @@ import Home from './components/Home/Home';
 import NotFoundPage from './components/NotFoundPage/NotFoundPage';
 import CountryDetail from './components/CountryDetail/CountryDetail';
 import NavBer from './components/NavBer/NavBer';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App ">
           
 
       <NavBer></NavBer>
@@ -42,6 +43,7 @@ function App() {
   </Switch>
 </Router>
       
+      <Footer/>
     </div>
   );
 }
